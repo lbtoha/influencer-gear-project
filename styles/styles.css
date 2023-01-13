@@ -1,0 +1,72 @@
+/* all fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --font-secondary: "Inter", sans-serif;
+  --body-bg: #aaaaaa;
+  --color-white: #ffffff;
+  --color-hotpink: #e02c6d;
+  --color-primary: #3a3a3a;
+  --color-pricing: rgba(0, 0, 0, 0.87);
+  --color-products-title: #18191f;
+  --color-products-description: #787885;
+  --color-ratting-star: #fb8200;
+  --color-ratting-point: #5e6366;
+  --color-feature-title: #0a0826;
+  --color-feature-description: #6c6c6c;
+  --shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* reset project */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #aaaaaa;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  background: var(--color-white);
+}
+
+/* =========================
+   button normal
+============================ */
+.btn-normal {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: var(--color-hotpink);
+  padding: 10px 24px;
+  border: 0;
+}
+
+/* =========================
+   button rounded
+============================ */
+.btn-rounded {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: var(--color-hotpink);
+  border-radius: calc(100px / 3);
+  padding: 10px 24px;
+  border: 0;
+}
