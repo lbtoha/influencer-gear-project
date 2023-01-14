@@ -46,6 +46,10 @@ section {
   /* background: coral; */
 }
 
+/* display none */
+.d-none {
+  display: none;
+}
 /* =========================
    button normal
 ============================ */
@@ -130,7 +134,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 131px;
+  column-gap: 88px;
 }
 
 .main-title {
@@ -155,8 +159,9 @@ section {
 }
 
 .banner-image {
-  background-image: url("../images/Circle-design.svg");
-  width: 475px;
+  background-image: url("../images/main-camera.png"), url("../images/Circle-design.svg");
+  background-size: 440px 414px, 475px 2475px;
+  width: 67%;
   height: 475px;
   background-repeat: no-repeat;
   background-position: right;
@@ -250,7 +255,7 @@ section {
 
 .ratting-d {
   font-weight: 400;
-  font-size: 14.6913px;
+  font-size: 14.6912px;
   color: #a2a2a2;
   margin-left: 6px;
 }
@@ -304,7 +309,7 @@ section {
   font-size: 16px;
   line-height: 28px;
   color: #6c6c6c;
-  width: 500px;
+  width: 70%;
   margin-bottom: 16px;
 }
 
